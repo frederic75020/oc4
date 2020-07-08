@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
 		
 		
 	<script src="./js/jquery-2.1.0.js"></script>
@@ -44,9 +45,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="la chouette agence webdesign" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -114,7 +113,8 @@
 			</div>
 			<div class="col-sm-6">
 				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					<!-- UNE BALISE ADRESSE POUR L'ADRESSE -->
+					<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br><address>place Sathonay 69001 Lyon</address><br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
 		</div>
@@ -136,30 +136,35 @@
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
-					<div class="col-sm-12">
+					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md></span></a>
+							<a class="social" href="https://www.twitter.com/home" target="_blank" aria-hidden="true"><span class="fa fa-twitter icon-md" aria-hidden="true"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com/" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/" target="_blank"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/" target="_blank">
+							<span aria-hidden="true" class="fa fa-instagram icon-md"></span>
+							</a>
 						</div>
 					</div>
+				<!-- BALISE INUTILE les mots doivent être dans le texte de la page	
+				<div class="keywords" style="color: white;">Agence web à Lyon, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> !-->
 				</div>
 			</div>
 		</div>
 	</div>
+</footer>
 </footer>
 <!-- Footer - bloc-8 END -->
 

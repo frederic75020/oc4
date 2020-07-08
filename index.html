@@ -8,7 +8,7 @@
 	<!-- SUPRESSION DE LA BALISE KEYWORDS -->
 
 	<!-- renseigner la balise description -->
-	<meta name="description" content="Agence de Webdesing à Lyon">
+	<meta name="description" content="Agence de Webdesign à Lyon">
 	<!-- renseigner la balise description -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -18,7 +18,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
     
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
@@ -48,9 +50,8 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<!-- retirer balises en blanc sur fond blanc -->
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="la chouette agence webdesign" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -180,7 +181,8 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+				<!-- ENLEVER LE KEYWORD STUFFING DES BALISES ALT DES IMAGES -->
+				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="web design lyon presse locale" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -201,7 +203,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="création de logo pour site web"/></a>
+				<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="logo pour site web"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -210,7 +212,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="" /></a>
+				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="webdesign mariage" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -250,41 +252,45 @@
 				<p class="text-center white">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
-				<div class="row row-no-gutters social">
+				<article class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a href="https://twitter.com/home" target="_blank">
+								<i aria-hidden="true" class="fab fa-twitter icon-md"></i>
+								<p>Twitter</p>
+							</a>
+						</div>
+					</article >
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a href="https://www.facebook.com/" target="_blank">
+								<i aria-hidden="true" class="fab fa-facebook-f icon-md"></i>
+								<p>Facebook</p>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a href="https://dribbble.com/" target="_blank">
+								<i aria-hidden="true" class="fab fa-dribbble icon-md"></i>
+								<p>Dribble</p>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a href="https://www.instagram.com/" target="_blank">
+								<i aria-hidden="true" class="fab fa-instagram icon-md"></i>
+								<p>Instagram</p>
+							</a>
 						</div>
 					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
-				<!-- inutiles les mots sont dans le texte de la page	
-				<div class="keywords" style="color: white;">Agence web à Lyon, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-				!-->
+				<!-- BALISE INUTILE les mots doivent être dans le texte de la page	
+				<div class="keywords" style="color: white;">Agence web à Lyon, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> !-->
 				</div>
 				<div class="row">
 					
-					<!-- FAVORISER LES VRAIS PARTENAIRES / AVIS  -->
-					<div class="col-sm-4">
-						Partenaires
-							<ul>
-								<li><a href="yelp.com">Yelp !</a></li>
-								<li><a href="avis-verifies.com">Avis Vérifiés</a></li>
-							</ul>		
-					</div>
+					<!-- FAVORISER LES VRAIS PARTENAIRES / AVIS CLIENTS  -->
 				</div>
 			</div>
 		</div>
