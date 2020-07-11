@@ -22,11 +22,11 @@
 	
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script async src="./js/jquery-2.1.0.js"></script>
+	<script async src="./js/bootstrap.js"></script>
+	<script async src="./js/blocs.js"></script>
+	<script async src="./js/jquery.touchSwipe.js" defer></script>
+	<script async src="./js/gmaps.js"></script>
 
 	<!-- METTRE LE NOM DE L'AGENCE DANS LE TITRE !-->
 	<title>La Chouette agence - Bienvenue !</title>
@@ -51,7 +51,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<!-- retirer balises en blanc sur fond blanc -->
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="la chouette agence webdesign" height="40" /></a>
+				<div class="navbar-brand"><img src="img/la-chouette-agence.png" alt="la chouette agence webdesign" height="40" /></div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -84,9 +84,6 @@
 				<h1 class="text-center hero-bloc-text tc-white">
 					La chouette agence.
 				</h1>
-				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -161,7 +158,7 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche.
 				</p>
 			</div>
 		</div>
@@ -234,68 +231,61 @@
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
-			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
-			</div>
 		</div>
 	</div>
 </section>
 <!-- bloc-5-cta END -->
 
-<!-- PASSER LE BLOC FOOTER EN FOOTER -->	
+<!-- PASSER LE BLOC FOOTER EN FOOTER -->
 
-<!-- Footer - bloc-8 -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<h2 class="text-center white">
 					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<article class="row row-no-gutters social">
-					<div class="col-sm-3">
+				</h2>
+				<section class="row row-no-gutters social">
+					<article class="col-sm-3">
 						<div class="text-center">
 							<a href="https://twitter.com/home" target="_blank">
 								<i aria-hidden="true" class="fab fa-twitter icon-md"></i>
-								<p>Twitter</p>
+								<p class="white">Twitter</p>
 							</a>
 						</div>
-					</article >
-					<div class="col-sm-3">
+					</article>
+					<article class="col-sm-3">
 						<div class="text-center">
 							<a href="https://www.facebook.com/" target="_blank">
 								<i aria-hidden="true" class="fab fa-facebook-f icon-md"></i>
-								<p>Facebook</p>
+								<p class="white">Facebook</p>
 							</a>
 						</div>
-					</div>
-					<div class="col-sm-3">
+					</article>
+					<article class="col-sm-3">
 						<div class="text-center">
 							<a href="https://dribbble.com/" target="_blank">
 								<i aria-hidden="true" class="fab fa-dribbble icon-md"></i>
-								<p>Dribble</p>
+								<p class="white">Dribble</p>
 							</a>
 						</div>
-					</div>
-					<div class="col-sm-3">
+					</article>
+					<article class="col-sm-3">
 						<div class="text-center">
 							<a href="https://www.instagram.com/" target="_blank">
 								<i aria-hidden="true" class="fab fa-instagram icon-md"></i>
-								<p>Instagram</p>
+								<p class="white">Instagram</p>
 							</a>
 						</div>
-					</div>
-				<!-- BALISE INUTILE les mots doivent être dans le texte de la page	
-				<div class="keywords" style="color: white;">Agence web à Lyon, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div> !-->
-				</div>
-				<div class="row">
-					
-					<!-- FAVORISER LES VRAIS PARTENAIRES / AVIS CLIENTS  -->
-				</div>
+					</article>
+				</section>
 			</div>
 		</div>
 	</div>
 </footer>
+
+<!-- Footer - bloc-8 -->
+
 <!-- Footer - bloc-8 END -->
 
 </div>
