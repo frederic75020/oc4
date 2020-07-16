@@ -19,11 +19,11 @@
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-IIED/eyOkM6ihtOiQsX2zizxFBphgnv1zbe1bKA+njdFzkr6cDNy16jfIKWu4FNH" crossorigin="anonymous">
 		
 		
-	<script async src="./js/jquery-2.1.0.js"></script>
-	<script async src="./js/bootstrap.js"></script>
-	<script async src="./js/blocs.js"></script>
-	<script async src="./js/jquery.touchSwipe.js" defer></script>
-	<script async src="./js/gmaps.js"></script>
+	<script defer src="./js/jquery-2.1.0.js"></script>
+	<script defer src="./js/bootstrap.js"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+	<script defer src="./js/gmaps.js"></script>
 
 
 	<!-- donner un nom qui a du sens à la page !-->
@@ -40,7 +40,7 @@
 <div class="page-container">
 <!-- CORRECTION DU MENU DEROULANT PAGE 2-->    
 <!-- bloc-0 -->
-<section class="bloc bgc-white l-bloc " id="bloc-0">
+<div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 
 		<nav class="navbar row">
@@ -64,7 +64,7 @@
 			</div>
 		</nav>
 	</div>
-</section>
+</div>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
@@ -90,7 +90,7 @@
 	<div class="container bloc-lg">
 		<div class="row centre">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
 					<div class="form-group">
 						<label>Nom<input id="name" class="form-control" required /></label>
 					</div>
@@ -113,10 +113,8 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
 					<!-- UNE BALISE ADRESSE POUR L'ADRESSE -->
 					<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br><address>place Sathonay 69001 Lyon</address><br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
 			</div>
 		</div>
 	</div>
@@ -136,41 +134,45 @@
 				<h2 class="text-center white">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</h2>
-				<section class="row row-no-gutters social">
-					<article class="col-sm-3">
+
+				<div class="row row-no-gutters social">
+					<div class="col-sm-3">
 						<div class="text-center">
 							<a href="https://twitter.com/home" target="_blank">
 								<i  class="fab fa-twitter icon-md"></i>
 								<p class="white">Twitter</p>
 							</a>
 						</div>
-					</article>
-					<article class="col-sm-3">
+					</div>
+
+					<div class="col-sm-3">
 						<div class="text-center">
 							<a href="https://www.facebook.com/" target="_blank">
 								<i class="fab fa-facebook-f icon-md"></i>
 								<p class="white">Facebook</p>
 							</a>
 						</div>
-					</article>
-					<article class="col-sm-3">
+					</div>
+
+					<div class="col-sm-3">
 						<div class="text-center">
 							<a href="https://dribbble.com/" target="_blank">
 								<i class="fab fa-dribbble icon-md"></i>
 								<p class="white">Dribble</p>
 							</a>
 						</div>
-					</article>
-					<article class="col-sm-3">
+					</div>
+
+					<div class="col-sm-3">
 						<div class="text-center">
 							<a href="https://www.instagram.com/" target="_blank">
 								<i class="fab fa-instagram icon-md"></i>
 								<p class="white">Instagram</p>
 							</a>
 						</div>
-					</article>
-				</section>
-			</div>
+					</div>
+				</div>	
+			</div>		
 		</div>
 	</div>
 </footer>
